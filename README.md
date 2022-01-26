@@ -5,6 +5,9 @@ A bot for wordle
 ``` bash
 cd src && python wordle_helper.py
 ```
+This tool already calculated the best word for the 1st round, if you want to use your guess, just input your real guess.
+
+This tool also capable for words with other lengths, which can be switch with changing `LETTERS` variable.
 
 # run result example
 ```
