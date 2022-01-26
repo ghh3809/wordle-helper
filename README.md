@@ -1,7 +1,7 @@
-# wordle-helper
+# Wordle-helper
 A bot for wordle
 
-# how to start
+# How to start
 ``` bash
 cd src && python wordle_helper.py
 ```
@@ -9,7 +9,7 @@ This tool already calculated the best word for the 1st round, if you want to use
 
 This tool also capable for words with other lengths, which can be switch with changing `LETTERS` variable.
 
-# run result example
+# Run result example
 ```
 ====== BEGIN ======
 Firstly, I'll try 'tears'
@@ -45,7 +45,7 @@ Success, total times = 3
 ```
 
 # 原理
-基于已知词频表[https://github.com/dwyl/english-words]构建先验概率，并计算所有词汇的信息熵，选择最大的进行猜测。
+基于已知[词频表](https://github.com/dwyl/english-words)构建先验概率，并计算所有词汇的信息熵，选择最大的进行猜测。
 
 当候选列表小于10时，优先猜测词频最高的单词。
 
